@@ -125,4 +125,68 @@ Set `IS_DEBUG_MODE_ENABLED_BY_DEFAULT: true` to see:
 - [Library Overview](./LIBRARY_OVERVIEW.md)
 - [Auto-Cards Guide](./AUTO_CARDS.md)
 - [Configuration Reference](./CONFIG_REFERENCE.md)
-- 
+- MainSettings.AC = {
+  // Core settings
+  DEFAULT_DO_AC: true,
+  DEFAULT_PIN_CONFIGURE_CARD: false,
+  DEFAULT_CARD_CREATION_COOLDOWN: 40,
+  
+  // Entry generation
+  DEFAULT_USE_BULLETED_LIST_MODE: true,
+  DEFAULT_GENERATED_ENTRY_LIMIT: 600,
+  
+  // Memory system
+  DEFAULT_NEW_CARDS_DO_MEMORY_UPDATES: false,
+  DEFAULT_NEW_CARDS_MEMORY_LIMIT: 3200,
+  DEFAULT_MEMORY_COMPRESSION_RATIO: 25,
+  
+  // Title detection
+  DEFAULT_IGNORE_ALL_CAPS_TITLES: true,
+  DEFAULT_DETECT_TITLES_FROM_INPUTS: false,
+  DEFAULT_MINIMUM_LOOK_BACK_DISTANCE: 7,
+  
+  // LSI and debug
+  DEFAULT_DO_LSI_V2: false,
+  DEFAULT_SHOW_DEBUG_DATA: false,
+  
+  // AI Prompts
+  DEFAULT_CARD_GENERATION_PROMPT: [...],
+  DEFAULT_CARD_MEMORY_COMPRESSION_PROMPT: [...],
+  
+  // Banned titles
+  DEFAULT_BANNED_TITLES_LIST: "North, East, South, West, ..."
+};
+// In your scenario setup:
+new MainSettings("InnerSelf").merge(yourConfig);
+
+### **Step 3: Preview (optional)**
+
+Click the **"Preview"** tab to see how it looks formatted.
+
+### **Step 4: Commit the file**
+
+Click the green **"Commit changes..."** button:
+
+- **Commit message:** `docs: Add LIBRARY_OVERVIEW.md`
+- Click **"Commit changes"**
+
+---
+
+## **Step 5: Repeat for remaining files**
+
+After this commits, you'll be back at the file list. Click **"Add file"** → **"Create new file"** for the next one.
+
+**Next file to create:**
+- **Path:** `docs/INNER_SELF.md`
+- (I'll give you the content in my next message)
+
+---
+
+**Quick question:** Would you like me to:
+
+1. **Give you ALL remaining file contents right now** (so you can paste faster)?
+2. **Do them one at a time** (slower but safer)?
+
+I recommend **option 1** - I'll give you a complete list you can copy/paste rapidly.
+
+Ready? 🚀
